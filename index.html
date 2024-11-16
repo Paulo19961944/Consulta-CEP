@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Paulo Henrique - Desenvolvedor Web">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="Desenvolvedor Web, JavaScript, Projetos">
+    <meta name="og:title" content="Consulta de CEP">
+    <meta name="og:description" content="Consulte o seu CEP">
+    <link rel="stylesheet" href="src/styles/style.css">
+    <title>Consulta CEP</title>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Consulta de CEP</h1>
+    </header>
+    <form action="">
+        <input type="text" name="CEP" id="CEP" placeholder="Digite o CEP">
+        <input type="button" value="Consultar CEP" id="button">
+    </form>
+    <main class="result-hide" id="result">
+        <p id="cep-result"><span>CEP:</span> </p>
+        <p id="endereco-result"><span>Endereço:</span> </p>
+        <p id="cidade-result"><span>Cidade:</span> </p>
+        <p id="estado-result"><span>Estado:</span> </p>
+    </main>
+    <script src="src/app/app.js"></script>
+</body>
+</html>
