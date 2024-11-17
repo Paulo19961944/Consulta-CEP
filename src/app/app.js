@@ -33,7 +33,7 @@ const exibirResultado = async () => {
     const cepInputValue = cepInput.value.replace(/\D/g, ''); // Pega o valor do campo de CEP, removendo não-dígitos
     if (cepInputValue.length === 8) {
         // Atualiza a URL na barra de endereços sem recarregar a página
-        history.pushState(null, '', `/${cepInputValue}`);
+        history.pushState(null, '', `/Consulta-CEP`);
         
         // Chama a função de busca do CEP
         const data = await buscarCep(cepInputValue);

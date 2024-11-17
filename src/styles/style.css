@@ -45,7 +45,7 @@ span{
 
 #CEP:focus{
     outline: none;
-    border-color: #66BB6A;
+    border-color: #4CAF50;
 }
 
 #button{
@@ -53,9 +53,13 @@ span{
     font-family: "Chakra Petch", sans-serif;
     font-weight: 500;
     border: none;
-    background-color: #4CAF50;
+    background-color: #43a047;
     color: #f0f0f0;
     padding: 0 16px;
+}
+
+#button:hover{
+    background-color: #008000;
 }
 
 .result-hide{
