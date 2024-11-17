@@ -8,6 +8,8 @@
 }
 
 body{
+    width: 100vw;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,7 +27,7 @@ span{
 }
 
 #titulo{
-    margin-top: 56px;
+    margin-top: 96px;
     font-family: "Chakra Petch", sans-serif;
 }
 
@@ -63,4 +65,37 @@ span{
     max-width: 400px;
     font-family: "Chakra Petch", sans-serif;
     margin-top: 80px;
+}
+
+@media(max-width: 576px){
+    body{
+        overflow: hidden;
+        width: 100vw;
+    }
+    
+    #titulo{
+        margin-top: 120px;
+        font-size: 1.5rem;
+    }
+
+    #CEP{
+        font-size: 0.75rem;
+        width: 188px;
+    }
+
+    #button{
+        font-size: 0.75rem;
+        width: 120px;
+    }
+
+    .result-show{
+        width: 76vw;
+        font-size: 0.75rem;
+    }
+}
+
+@media(max-width: 768px){
+    #titulo{
+        margin-top: 120px;
+    }
 }
