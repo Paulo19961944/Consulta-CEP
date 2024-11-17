@@ -43,6 +43,11 @@ span{
     padding: 0 8px;
 }
 
+#CEP:focus{
+    outline: none;
+    border-color: #66BB6A;
+}
+
 #button{
     cursor: pointer;
     font-family: "Chakra Petch", sans-serif;
