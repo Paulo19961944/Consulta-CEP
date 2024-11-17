@@ -8,7 +8,7 @@ Esse é um aplicativo que faz uma consulta para o CEP via API do ViaCep. É uma 
 ### 1. Consulta de Endereço em Sites de E-commerce
 **Situação:** Em uma loja virtual, os usuários frequentemente precisam preencher o campo de endereço para fazer o cadastro ou concluir uma compra.
 
-**Aplicação prática:** O formulário pode ter um campo de CEP que, ao ser preenchido, automaticamente preenche os campos de endereço, cidade, estado, e até o bairro, facilitando a experiência do usuário e reduzindo erros de digitação. O código fornecido pode ser utilizado como uma base para essa funcionalidade.
+**Aplicação prática:** O formulário pode ter um campo de CEP que, ao ser preenchido, automaticamente preenche os campos de endereço, cidade, estado, e até o bairro, facilitando a experiência do usuário e reduzindo erros de digitação. O código fornecido pode ser utilizado como uma base para essa funcionalidade.<hr></hr>
 
 ### 2. Automatização de Preenchimento de Formulários
 **Situação:** Sistemas de cadastro ou alteração de dados pessoais frequentemente solicitam o CEP para buscar o endereço completo de um usuário.
