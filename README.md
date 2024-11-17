@@ -55,6 +55,10 @@ Esse é um aplicativo que faz uma consulta para o CEP via API do ViaCep. É uma 
 
 **Aplicação prática:** O sistema pode usar esse código para confirmar se o CEP fornecido corresponde a um endereço válido, além de atualizar o status das entregas em tempo real, oferecendo ao cliente informações precisas sobre seu pedido.<hr></hr>
 
+## LINK DO PROJETO
+
+[CLIQUE AQUI E ACESSE O LINK DO PROJETO](https://paulo19961944.github.io/Consulta-CEP/)
+
 
 ## CONCLUSÃO
 
